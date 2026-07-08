@@ -1,3 +1,4 @@
+
 # HR_Capstone_Completed_Erhaye-Joy
 
 
@@ -15,6 +16,10 @@ The raw data underwent a rigorous data cleaning and preparation process using sp
  * *Employment Status :* PROPER & TRIM
  * *Years of Service  :* DATEDIF- (DATEDIF(Hiring_Date, Today(),"Y")
   * *Salary Imputation:* Average Salary- Identified missing or null records in the salary fields and populated them using the calculated average salary metric to maintain statistical integrity without distorting overall budget trends.
+## Below is the Pivot table for the above
+
+<img width="488" height="295" alt="pivot HR" src="https://github.com/user-attachments/assets/a270bb7f-4faf-41f0-92a6-2eb0d2aa6963" />
+<img width="437" height="355" alt="HR chart" src="https://github.com/user-attachments/assets/2f9a32c2-4cd9-4cde-99ab-2359c93f2a56" />
 
   
 ## *Key observations & Analytical Findings*
@@ -29,7 +34,7 @@ The pivot analysis and visualization modules revealed several core business find
    * The highest bonus amounts are concentrated among employees who are top-tier performers under *Outstanding* performance band while employee under *Needs improvement* performance Band do not reveive any bonus.
 
    
-    ## *The Insight:*
+   ## The Insight
    Hiring trends across the years (2015–2023) show strict stability, consistently fluctuating tightly between *15 and 19 new hires per year* (peaking at 19 in 2017 and sitting at 17 in 2023).
 
 
